@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monthly Global Land-Surface Temperature</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/footer/styles.css" />
+    <link rel="stylesheet" href="./assets/css/loader.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/heatmap.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 class="title" id="title">Monthly Global Land-Surface Temperature</h1>
+      <div class="contenedor_tabla">
+        <table id="description">
+          <thead>
+            <tr>
+              <th>Periods</th>
+              <th>Base Temperature</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1750 - 2015</td>
+              <td>8.66 °C</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container_graph">
+        <div class="contenedor_loader">
+          <div class="loader"></div>
+          <div class="loader1"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer" translate="no">
+      <div class="footer_contenido">
+        <div translate="no" id="footer_tag">Developed by:</div>
+
+        <div class="logo">
+          <a
+            href="https://linktr.ee/waldohidalgo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/images/logo_waldo.png" alt="logo waldo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="module" src="./assets/js/script.js"></script>
+  </body>
+</html>

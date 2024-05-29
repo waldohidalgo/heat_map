@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.contenedor_tabla {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  padding-block: 1rem 2rem;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+thead {
+  background-color: #eee;
+}
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.y-label,
+.x-label {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.container_graph {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+}
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 150px;
+  -webkit-box-shadow: 0px 0px 0 5px var(--box-shadow-color), 0 0 0 10px black;
+  -moz-box-shadow: 0px 0px 0 5px var(--box-shadow-color), 0 0 0 10px black;
+  box-shadow: 0px 0px 0 5px var(--box-shadow-color), 0 0 0 10px black;
+  cursor: pointer;
+}
