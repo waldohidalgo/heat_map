@@ -6,6 +6,18 @@ La data es obtenida desde la siguiente URL: [link a data](https://raw.githubuser
 
 ## Tabla de Contenidos
 
+- [Visualize Data with a Heat Map](#visualize-data-with-a-heat-map)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Requisitos](#requisitos)
+  - [All tests passed](#all-tests-passed)
+  - [Screenshots](#screenshots)
+    - [1. Home](#1-home)
+    - [2. Tooltips](#2-tooltips)
+      - [2.1. Upper Left Tooltip](#21-upper-left-tooltip)
+      - [2.2. Upper Right Tooltip](#22-upper-right-tooltip)
+      - [2.3. Bottom Left Tooltip](#23-bottom-left-tooltip)
+      - [2.4. Bottom Right Tooltip](#24-bottom-right-tooltip)
+
 ## Requisitos
 
 ![Requisitos](./screenshots/requisitos.webp)
